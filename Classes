@@ -1,0 +1,35 @@
+###########################
+#  Tables of our project  #
+###########################
+	
+	User
+		id
+		first_name
+		last_name 
+		age
+		birthday
+		username
+		password
+		photo
+		is_admin
+		is_active
+		notifications
+
+	Student (User)
+		grade
+		school
+		stream
+
+	Teacher
+		school
+		subject
+		followers
+		courses
+
+	Course
+		id 
+		duration
+		teacher
+		students
+		localisation
+		date
